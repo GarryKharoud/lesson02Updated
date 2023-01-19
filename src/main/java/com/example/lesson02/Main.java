@@ -8,5 +8,7 @@ public class Main
         System.out.println(card1.toString());
         System.out.println(card1+" color: "+card1.getColor());
         System.out.println(card1+" value: "+card1.getCardValue());
+
+        DeckOfCards deck = new DeckOfCards();
     }
 }
