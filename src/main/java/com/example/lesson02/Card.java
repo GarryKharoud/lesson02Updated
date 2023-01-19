@@ -43,6 +43,8 @@ public class Card
      */
     public  void setFaceName(String faceName)
     {
+
+        //a little edit
         if(getValidFaceNames().contains(faceName))
         {
             this.faceName = faceName;
