@@ -43,7 +43,7 @@ public class Card
      */
     public  void setFaceName(String faceName)
     {
-
+        faceName = faceName.toLowerCase();
         //a little edit
         if(getValidFaceNames().contains(faceName))
         {
@@ -60,6 +60,11 @@ public class Card
     }
     public void setSuit(String suit)
     {
+        suit = suit.toLowerCase();
+        if(suit.charAt(suit.length()-1)!='s')
+        {
+            suit = suit+"s";
+        }
         if (getValidSuit().contains(suit))
         {
             this.suit = suit;
@@ -74,5 +79,33 @@ public class Card
     public  String toString()
     {
         return faceName+" of "+suit;
+    }
+
+    /**
+     * This Method returns the color of the card.
+     * Red = hearts or diamonds
+     * black = spades or clubs
+     */
+
+    public String getColor()
+    {
+        if(suit.equals("hearts") || suit.equals("diamonds"))
+        {
+            return "red";
+        }
+        else
+        {
+            return "black";
+        }
+    }
+    /**
+     * This method will return value of card
+     */
+    public int getCardValue()
+    {
+        List<String> faceNames = getValidFaceNames();
+        int indexOfCard = faceNames.indexOf(faceName);
+        return indexOfCard+2;
+        //return  getValidFaceNames().indexOf(faceName+2);
     }
 }
