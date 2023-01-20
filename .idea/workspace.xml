@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bfa8039-bbad-4c2c-a2e1-4afdd916b66e" name="Changes" comment="adding stuff">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/lesson02/DeckOfCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lesson02/DeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lesson02/DeckOfCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lesson02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lesson02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <updated>1674162211450</updated>
       <workItem from="1674162212669" duration="98000" />
       <workItem from="1674162364823" duration="336000" />
-      <workItem from="1674162713996" duration="5361000" />
+      <workItem from="1674162713996" duration="6533000" />
     </task>
     <task id="LOCAL-00001" summary="Added Validation for the facenames">
       <created>1674165700941</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674167559094</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding stuff">
+      <created>1674168108850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674168108850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
